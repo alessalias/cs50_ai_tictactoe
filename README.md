@@ -1,9 +1,9 @@
 # 🧠 Minimax AI player
 
-![status: work in progress](https://img.shields.io/badge/status-wip-orange)
-![python](https://img.shields.io/badge/python-3.10+-blue)
-![pygame](https://img.shields.io/badge/pygame-enabled-green)
-![ai](https://img.shields.io/badge/ai-minimax-lightgrey)
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![CS50 AI](https://img.shields.io/badge/CS50-AI_Project-orange)
+![Logic](https://img.shields.io/badge/Minimax%20AI-✓-brightgreen)
+![Status](https://img.shields.io/badge/Status-Complete-success)
 
 ---
 
@@ -14,7 +14,7 @@ tictactoe/
 │
 ├── tictactoe.py        # core game logic + minimax ai
 ├── runner.py           # pygame GUI for interactive play
-├── test.py             # quick functional test for winner()
+├── test.py             # debugging tool used in development 
 ├── requirements.txt    # dependencies
 ├── OpenSans-Regular.ttf
 └── __pycache__/        # python cache
@@ -40,7 +40,7 @@ The project includes:
 
 The AI uses the classic **Minimax algorithm** to evaluate all possible future game states and choose the optimal move.
 
-### 🔍 high-level idea (ascii diagram)
+### 🔍 high-level idea
 
 ```
 current board
